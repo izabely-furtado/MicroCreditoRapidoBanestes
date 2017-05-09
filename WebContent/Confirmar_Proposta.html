@@ -1,134 +1,127 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <title>Confirmar Proposta</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="imagetoolbar" content="no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet">
-    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet">
-    <link href="Confirmar_Proposta_files/axurerp_pagespecificstyles.css" type="text/css" rel="stylesheet">
-<!--[if IE 6]>
-    <link href="Confirmar_Proposta_files/axurerp_pagespecificstyles_ie6.css" type="text/css" rel="stylesheet">
-<![endif]-->
-    <script src="data/sitemap.js"></script>
-    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
-    <script src="resources/scripts/axutils.js"></script>
-    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
-    <script src="resources/scripts/axurerp_beforepagescript.js"></script>
-    <script src="resources/scripts/messagecenter.js"></script>
-<script src='Confirmar_Proposta_files/data.js'></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confirmar Proposta</title>
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<script src="resources/scripts/jquery-1.7.1.min.js"></script>
+<script src="resources/scripts/axutils.js"></script>
+<script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+<script src="resources/scripts/axurerp_beforepagescript.js"></script>
+<script src="resources/scripts/messagecenter.js"></script>
+<!-- Styles -->
+<link href="./assets/css/colunas.css" rel="stylesheet" />
+<link href="./assets/css/formulario.css" rel="stylesheet" />
+<link href="./assets/css/principal.css" rel="stylesheet" />
+<link href="./assets/css/menu.css" rel="stylesheet" />
+<link href="assets/css/inicio.css" rel="stylesheet" />
 </head>
 <body>
-<div id="main_container">
+	<div class="corpo">
+		<div class="linha">
+			<div class="coluna-12">
+				<center>
+					<img src="./assets/img/topo.png" />
+				</center>
+			</div>
+		</div>
+		<div class="linha">
+			<div class="coluna-12">
+				<div id="main_container">
+					<main><!-- Conte�do de P�ginas -->
+					<h2>Resultado da Simulação</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Valor Pretendido</th>
+								<th>Desconto TAC 1%</th>
+								<th>Desconto IOF 1,88 %</th>
+								<th>Valor Total Bruto</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>R$ 100.000,00</td>
+								<td>R$ 1.000,00</td>
+								<td>R$ 1.880,00</td>
+								<td>R$ 102.880,00</td>
+							</tr>
+							
+						</tbody>
+					</table>
+					<h4>Dados da sua Simulação</h4>
 
-<div id="u0" class="u0_container"   >
-<div id="u0_img" >
-<img src="Topo_da_pagina_files/u0_normal.jpg"  class="raw_image"></div>
-<div id="u1" class="u1" style="visibility:hidden;"  >
-<div id="u1_rtf"></div>
-</div>
-</div>
-<DIV id="u2" style="border-style:dotted; border-color:red; visibility:hidden; position:absolute; left:0px; top:0px; width:993px; height:284px;;" ></div>
-<div id="u3" class="u3_container"   >
-<div id="u3_img" class="u3_normal detectCanvas"></div>
-<div id="u4" class="u4" style="visibility:hidden;"  >
-<div id="u4_rtf"></div>
-</div>
-</div>
-<div id="u5" class="u5"  >
-<div id="u5_rtf"><p style="text-align:left;"><span style="font-family:Calibri;font-size:21px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">C</span><span style="font-family:Calibri;font-size:21px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">onfirmar Proposta</span></p></div>
-</div><div id="u6" class="u6" >
-<DIV id="u6_line" class="u6_line" ></DIV>
-</div>
-<INPUT id="u7" type="submit" class="u7" value="Realizar Nova Simulação"   >
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho" style="text-align:right">
+								<label style="margin:0px;">Prazo:</label><br />
+								<label style="margin:0px;">Carência:</label><br />
+								<label style="margin:0px;">Valor das parcelas na Carência:</label><br />
+								<label style="margin:0px;">Valor das parcelas na Amortização:</label><br />
+								<label style="margin:0px;">Taxa:</label><br />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<output>24 meses</output><br />
+								<output>0 meses</output><br />
+								<output>sem carência</output><br />
+								<output>1 a 24 de R$ 4.877,01</output><br />
+								<output>1,30% a.m. 16,76% a.a.</output><br />
+							</div>
+						</div>
+						
+					</div>
+					<hr />
+					<h4>Dia Vencimento das Parcelas</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Prazo:</label>
+								<input type="date" id="razao"
+									   required class="formulario" 
+									   placeholder="Insira o Prazo" />
+							</div>
+						</div>
+					</div>
+								
+					<a  href="./Simular.html"><button>Realizar Nova Simulação</button></a>
+					<a  href="./Proposta.html"><button>Salvar</button></a>
+					<br />
+					<br />
+					<br />
 
-<INPUT id="u8" type=text value="" class="u8"     >
 
-<div id="u9" class="u9"  >
-<div id="u9_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">C</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">omposição das Parcelas e Prazos</span></p></div>
-</div><div id="u10" class="u10" >
-<DIV id="u10_line" class="u10_line" ></DIV>
-</div>
-<div id="u11" class="u11"  >
-<div id="u11_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Praz</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">o</span></p></div>
-</div>
-<div id="u12" class="u12"  >
-<div id="u12_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Carência</span></p></div>
-</div>
-<div id="u13" class="u13"  >
-<div id="u13_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Valor das </span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">p</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">arcelas na Carência</span></p></div>
-</div>
-<div id="u14" class="u14"  >
-<div id="u14_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Valor das parcelas na Amortizaçã</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">o</span></p></div>
-</div>
-<div id="u15" class="u15"  >
-<div id="u15_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Taxa</span></p></div>
-</div><div id="u16" class="u16" >
-<DIV id="u16_line" class="u16_line" ></DIV>
-</div>
-<div id="u17" class="u17"  >
-<div id="u17_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">24 meses</span></p></div>
-</div><div id="u18" class="u18" >
-<DIV id="u18_line" class="u18_line" ></DIV>
-</div>
-<div id="u19" class="u19"  >
-<div id="u19_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">0</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;"> meses</span></p></div>
-</div><div id="u20" class="u20" >
-<DIV id="u20_line" class="u20_line" ></DIV>
-</div><div id="u21" class="u21" >
-<DIV id="u21_line" class="u21_line" ></DIV>
-</div>
-<div id="u22" class="u22"  >
-<div id="u22_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">sem carência</span></p></div>
-</div>
-<div id="u23" class="u23"  >
-<div id="u23_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">1,30% a.m. 16,76% a.a.</span></p></div>
-</div>
-<div id="u24" class="u24"  >
-<div id="u24_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">1 a 24 de R$ 4.877,01</span></p></div>
-</div>
-<div id="u25" class="u25"  >
-<div id="u25_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">D</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#0066CC;">ia Vencimento das Parcelas</span></p></div>
-</div><div id="u26" class="u26" >
-<DIV id="u26_line" class="u26_line" ></DIV>
-</div>
-<div id="u27" class="u27"  >
-<div id="u27_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">V</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">alor Pretendido</span></p></div>
-</div>
-<div id="u28" class="u28"  >
-<div id="u28_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">&nbsp;</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Desconto</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;"> IOF </span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">1,</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">88</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;"> %</span></p></div>
-</div><div id="u29" class="u29" >
-<DIV id="u29_line" class="u29_line" ></DIV>
-</div><div id="u30" class="u30" >
-<DIV id="u30_line" class="u30_line" ></DIV>
-</div>
-<div id="u31" class="u31"  >
-<div id="u31_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">R$ 100.000,00</span></p></div>
-</div>
-<div id="u32" class="u32"  >
-<div id="u32_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">&nbsp;</span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Desconto TAC</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;"> 1%</span></p></div>
-</div>
-<div id="u33" class="u33"  >
-<div id="u33_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">R$ </span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">1.000</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">,00</span></p></div>
-</div>
-<div id="u34" class="u34"  >
-<div id="u34_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">R$ </span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">1</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">.</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">880</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">,00</span></p></div>
-</div>
-<div id="u35" class="u35"  >
-<div id="u35_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Valor </span><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Total Bruto</span></p></div>
-</div>
-<div id="u36" class="u36"  >
-<div id="u36_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">R$ </span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">102</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">.</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">88</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">0</span><span style="font-family:Verdana;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#666666;">,00</span></p></div>
-</div><div id="u37" class="u37" >
-<DIV id="u37_line" class="u37_line" ></DIV>
-</div>
-<div id="u38" class="u38"  >
-<div id="u38_rtf"><p style="text-align:left;"><span style="font-family:Verdana;font-size:13px;font-weight:bold;font-style:normal;text-decoration:none;color:#666666;">Dia</span></p></div>
-</div>
-<INPUT id="u39" type="submit" class="u39" value="Salvar"   >
 
-</div>
-<div class="preload"><img src="Topo_da_pagina_files/u0_normal.jpg" width="1" height="1"/><img src="Confirmar_Proposta_files/u3_normal.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u6_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u10_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u16_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u18_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u20_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u21_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u26_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u29_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u30_line.png" width="1" height="1"/><img src="Confirmar_Proposta_files/u37_line.png" width="1" height="1"/></div>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="linha">
+		<div class="coluna-12" style="background-color: #073872;">
+			<center>
+				<img src="./assets/img/rodap1.png" />
+			</center>
+		</div>
+	</div>
+	<div class="linha">
+		<div class="coluna-12" style="background-color: #052b58;">
+			<center>
+				<img src="./assets/img/rodape2.png" />
+			</center>
+		</div>
+	</div>
+
 </body>
 <script src="resources/scripts/axurerp_pagescript.js"></script>
-<script src="Confirmar_Proposta_files/axurerp_pagespecificscript.js" charset="utf-8"></script>
+<script src="Cadastro_files/axurerp_pagespecificscript.js"
+	charset="utf-8"></script>

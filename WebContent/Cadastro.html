@@ -1,515 +1,287 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cadastro</title>
+
+
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<link href="resources/css/jquery-ui-themes.css" type="text/css"
-	rel="stylesheet">
-<link href="resources/css/axure_rp_page.css" type="text/css"
-	rel="stylesheet">
-<link href="Cadastro_files/axurerp_pagespecificstyles.css"
-	type="text/css" rel="stylesheet">
-<!--[if IE 6]>
-    <link href="Cadastro_files/axurerp_pagespecificstyles_ie6.css" type="text/css" rel="stylesheet">
-<![endif]-->
-<script src="data/sitemap.js"></script>
+
 <script src="resources/scripts/jquery-1.7.1.min.js"></script>
 <script src="resources/scripts/axutils.js"></script>
 <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
 <script src="resources/scripts/axurerp_beforepagescript.js"></script>
 <script src="resources/scripts/messagecenter.js"></script>
-
-<!-- css -->
+<!-- Styles -->
 <link href="./assets/css/colunas.css" rel="stylesheet" />
 <link href="./assets/css/formulario.css" rel="stylesheet" />
 <link href="./assets/css/principal.css" rel="stylesheet" />
 <link href="./assets/css/menu.css" rel="stylesheet" />
 <link href="assets/css/inicio.css" rel="stylesheet" />
-
-
-<script src='Cadastro_files/data.js'></script>
 </head>
 <body>
-	<div id="main_container">
-
-		<div id="u0" class="u0_container">
-			<div id="u0_img">
-				<img src="Topo_da_pagina_files/u0_normal.jpg" class="raw_image">
-			</div>
-			<div id="u1" class="u1" style="visibility: hidden;">
-				<div id="u1_rtf"></div>
+	<div class="corpo">
+		<div class="linha">
+			<div class="coluna-12">
+			<center><img src="./assets/img/topo.png" /></center>
 			</div>
 		</div>
-		<DIV id="u2"
-			style="border-style: dotted; border-color: red; visibility: hidden; position: absolute; left: 0px; top: 0px; width: 993px; height: 284px;"></div>
-		<div id="u3" class="u3_container">
-			<div id="u3_img" class="u3_normal detectCanvas"></div>
-			<div id="u4" class="u4" style="visibility: hidden;">
-				<div id="u4_rtf"></div>
-			</div>
-		</div>
-		<div id="u5" class="u5">
-			<div id="u5_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Calibri; font-size: 21px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">C</span><span
-						style="font-family: Calibri; font-size: 21px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">adastro</span>
-				</p>
-			</div>
-		</div>
-		<div id="u6" class="u6">
-			<DIV id="u6_line" class="u6_line"></DIV>
-		</div>
-		<div id="u7" class="u7">
-			<div id="u7_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">Dados
-						da Empresa</span>
-				</p>
-			</div>
-		</div>
-		<div id="u8" class="u8">
-			<DIV id="u8_line" class="u8_line"></DIV>
-		</div>
-		<div id="u9" class="u9">
-			<div id="u9_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">CNPJ</span>
-				</p>
-			</div>
-		</div>
-		<div id="u10" class="u10">
-			<div id="u10_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">I</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">nscrição
-						Estadual</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u11" type=text value="" class="u11">
-
-		<DIV id="u12container"
-			style="position: absolute; left: 207px; top: 467px; width: 100px; height: 16px;">
-			<LABEL for="u12">
-				<div id="u13" class="u13">
-					<div id="u13_rtf">
-						<p style="text-align: left;">
-							<span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #515151;">sou
-								isento</span>
-						</p>
+		<div class="linha">
+			<div class="coluna-12">
+				<div id="main_container">
+					<main><!-- Conte�do de P�ginas -->
+					<h2>Cadastro</h2>
+					<hr />
+					<h4>Dados da Empresa</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>CNPJ:</label> <input type="text" id="cnpj" required
+									class="formulario" placeholder="Insira o CNPJ" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Razão Social:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a Razão Social" />
+							</div>
+						</div>
 					</div>
-				</div>
-			</LABEL> <INPUT id="u12" style="position: absolute; left: -3px; top: -2px;"
-				type="checkbox" value="checkbox">
-		</DIV>
-		<div id="u14" class="u14">
-			<div id="u14_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">E</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">ndereço</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">
-						(</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">Matriz</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">)</span>
-				</p>
-			</div>
-		</div>
-		<div id="u15" class="u15">
-			<DIV id="u15_line" class="u15_line"></DIV>
-		</div>
-		<div id="u16" class="u16">
-			<div id="u16_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">C</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">PF</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u17" type=text value="" class="u17">
-
-		<div id="u18" class="u18">
-			<div id="u18_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">N</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">ome
-						Completo</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u19" type=text value="" class="u19">
-
-		<div id="u20" class="u20">
-			<div id="u20_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">D</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">ata
-						Nascimento</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u21" type=text value="" class="u21">
-
-		<div id="u22" class="u22">
-			<div id="u22_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">I</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">dentidade</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u23" type=text value="" class="u23">
-
-		<div id="u24" class="u24">
-			<div id="u24_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">Órgão
-						Expedidor</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u25" type=text value="" class="u25">
-
-		<div id="u26" class="u26">
-			<div id="u26_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">T</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">elefone
-						Fixo</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u27" type=text value="" class="u27">
-
-		<DIV id="u28container"
-			style="position: absolute; left: 543px; top: 877px; width: 250px; height: 16px;">
-			<LABEL for="u28">
-				<div id="u29" class="u29">
-					<div id="u29_rtf">
-						<p style="text-align: left;">
-							<span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #515151;">A</span><span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #515151;">utorizo
-								o recebimento de sms</span>
-						</p>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Inscrição Estadual:</label> <input type="text" id="cnpj"
+									required class="formulario"
+									placeholder="Insira a sua Inscrição Estadual" /> <input
+									type="checkbox" name="infra" id="isento1">Sou isento<br>
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Inscrição Municipal:</label> <input type="text"
+									id="razao" required class="formulario"
+									placeholder="Insira a sua Inscrição Estadual" /> <input
+									type="checkbox" name="infra" id="isento2">Sou isento<br>
+							</div>
+						</div>
 					</div>
-				</div>
-			</LABEL> <INPUT id="u28" style="position: absolute; left: -3px; top: -2px;"
-				type="checkbox" value="checkbox">
-		</DIV>
-		<div id="u30" class="u30">
-			<div id="u30_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">N</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">ome
-						Completo</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">
-						da Mãe</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u31" type=text value="" class="u31">
 
-		<div id="u32" class="u32">
-			<div id="u32_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">Dados
-						de Acesso</span>
-				</p>
-			</div>
-		</div>
-		<div id="u33" class="u33">
-			<DIV id="u33_line" class="u33_line"></DIV>
-		</div>
-		<div id="u34" class="u34">
-			<div id="u34_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">D</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">igite
-						seu e-mail</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u35" type=text value="" class="u35">
 
-		<div id="u36" class="u36">
-			<div id="u36_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">R</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">epita
-						e-mail</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u37" type=text value="" class="u37">
 
-		<div id="u38" class="u38">
-			<div id="u38_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">C</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">adastre
-						sua senha</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u39" type=text value="" class="u39">
+					<hr />
+					<h4>Endereço</h4>
+					<div class="linha">
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>CEP:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o CEP" />
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Estado:</label> <select class="formulario" id="forma">
+									<option>Selecione o Estado</option>
+									<option value="AC">Acre</option>
+									<option value="AL">Alagoas</option>
+									<option value="AP">Amapá</option>
+									<option value="AM">Amazonas</option>
+									<option value="BA">Bahia</option>
+									<option value="CE">Ceará</option>
+									<option value="DF">Distrito Federal</option>
+									<option value="ES">Espírito Santo</option>
+									<option value="GO">Goiás</option>
+									<option value="MA">Maranhão</option>
+									<option value="MT">Mato Grosso</option>
+									<option value="MS">Mato Grosso do Sul</option>
+									<option value="MG">Minas Gerais</option>
+									<option value="PA">Pará</option>
+									<option value="PB">Paraiba</option>
+									<option value="PR">Paraná</option>
+									<option value="PE">Pernambuco</option>
+									<option value="PI">Piauí</option>
+									<option value="RJ">Rio de Janeiro</option>
+									<option value="RN">Rio Grande do Norte</option>
+									<option value="RS">Rio Grande do Sul</option>
+									<option value="RO">Rondônia</option>
+									<option value="RR">Roraima</option>
+									<option value="SC">Santa Catarina</option>
+									<option value="SP">São Paulo</option>
+									<option value="SE">Sergipe</option>
+									<option value="TO">Tocantins</option>
+								</select>
+							</div>
 
-		<div id="u40" class="u40">
-			<div id="u40_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">R</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">epita</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">
-						sua senha</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u41" type=text value="" class="u41">
-
-		<div id="u42" class="u42">
-			<div id="u42_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">T</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">ermos
-						de Uso e Condições</span>
-				</p>
-			</div>
-		</div>
-		<div id="u43" class="u43">
-			<DIV id="u43_line" class="u43_line"></DIV>
-		</div>
-		<div id="u44" class="u44">
-			<div id="u44_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">Para
-						con</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">cluir
-						seu cadastro, você deve estar de acordo com os &quot;Termos de Uso
-						e Condições&quot;. Leia-o com atenção antes de continuar.</span>
-				</p>
-			</div>
-		</div>
-		<TEXTAREA id=u45 class="u45">Declaro que as informações prestadas acima são a expressão da verdade, pelas quais me responsabilizo sob as penas da lei, autorizando expressamente, o Banestes a efetuar consultas a dados dos sócios da empresa a bancos de dados mantidos pela Central de Risco do Banco Central do Brasil – BACEN, por quaisquer das diversas entidades ou órgãos de proteção ao crédito ou especializadas na prestação de serviços cadastrais. Autorizo, também, que o Banestes forneça a referidos bancos de dados informações sobre meu(s) débito(s) ou financiamento(s), especialmente no que tange à pontualidade na solvência dos compromissos financeiros assumidos e outras informações inerentes à atividade de cadastro e avaliação de risco de operações.</TEXTAREA>
-
-		<DIV id="u46container"
-			style="position: absolute; left: 15px; top: 1431px; width: 65px; height: 16px;">
-			<LABEL for="u46">
-				<div id="u47" class="u47">
-					<div id="u47_rtf">
-						<p style="text-align: left;">
-							<span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #434343;">A</span><span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #434343;">ceito</span>
-						</p>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Cidade:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira a cidade" />
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Logradouro:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o Logradouro" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Número:</label> <input type="number" id="cep" required
+									class="formulario" placeholder="Insira o número" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Complemento:</label> <select class="formulario"
+									id="forma">
+									<option value="AC">Casa</option>
+									<option value="AL">Apartamento</option>
+									<option value="AP">Chácara</option>
+									<option value="AP">Fazenda</option>
+								</select>
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Bairro:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o bairro" />
+							</div>
+						</div>
 					</div>
-				</div>
-			</LABEL> <INPUT id="u46" style="position: absolute; left: -3px; top: -2px;"
-				type="checkbox" value="checkbox" checked>
-		</DIV>
-		<div id="u48" class="u48">
-			<div id="u48_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">I</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">nscrição</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">
-						Municipal</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u49" type=text value="" class="u49">
 
-		<DIV id="u50container"
-			style="position: absolute; left: 513px; top: 466px; width: 100px; height: 16px;">
-			<LABEL for="u50">
-				<div id="u51" class="u51">
-					<div id="u51_rtf">
-						<p style="text-align: left;">
-							<span
-								style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #515151;">sou
-								isento</span>
-						</p>
+					<hr />
+					<h4>Dados Representante Legal</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>CPF:</label> <input type="text" id="cnpj" required
+									class="formulario" placeholder="Insira o CPF" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Órgão Expedidor:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a órgão expedidor" />
+							</div>
+						</div>
+						<div class="coluna-5">
+							<div class="grupinho">
+								<label>Nome Completo:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a nome Completo" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Data Nascimento:</label> <input type="date" id="razao"
+									required class="formulario" placeholder="Insira a data de nascimento" />
+							</div>
+						</div>
+						<div class="coluna-5">
+							<div class="grupinho">
+								<label>Nome Completo da Mãe:</label> <input type="text"
+									id="razao" required class="formulario"
+									placeholder="Insira o nome completo da mãe" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Telefone Fixo:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira um telefone fixo" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Telefone Celular:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira um telefone celular" />
+							</div>
+						</div>
+						<div class="coluna-12">
+							<input type="checkbox" name="infra" id="isento2">Autorizo
+							o recebimento de sms<br />
+							<br />
+						</div>
+
 					</div>
+					<button onchange="form1()" onclick="form1()">Enviar
+						Procuração</button>
+
+
+
+
+					<hr />
+					<h4>Dados de Acesso</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>E-mail:</label> <input type="email" id="cnpj" required
+									class="formulario" placeholder="Insira o seu E-mail" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Repita o E-mail:</label> <input type="email" id="razao"
+									required class="formulario"
+									placeholder="Insira o seu E-mail novamente" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Senha:</label> <input type="password" id="razao" required
+									class="formulario" placeholder="Insira a sua senha" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Repita Senha:</label> <input type="password" id="razao"
+									required class="formulario"
+									placeholder="Insira a sua Senha novamente" />
+							</div>
+						</div>
+
+					</div>
+					<hr />
+					<h4>Termos de Uso e Condições</h4>
+					<div class="linha">
+						<div class="coluna-12">
+							<div class="grupinho">
+								<label>Para concluir seu cadastro, você deve estar de
+									acordo com os "Termos de Uso e Condições". Leia-o com atenção
+									antes de continuar.</label>
+								<textarea class="formulario" name="comentário"  rows="4">Declaro que as informações prestadas acima são a expressão da verdade, pelas quais me responsabilizo sob as penas da lei, autorizando expressamente, o Banestes a efetuar consultas a dados dos sócios da empresa a bancos de dados mantidos pela Central de Risco do Banco Central do Brasil – BACEN, por quaisquer das diversas entidades ou órgãos de proteção ao crédito ou especializadas na prestação de serviços cadastrais. Autorizo, também, que o Banestes forneça a referidos bancos de dados informações sobre meu(s) débito(s) ou financiamento(s), especialmente no que tange à pontualidade na solvência dos compromissos financeiros assumidos e outras informações inerentes à atividade de cadastro e avaliação de risco de operações.</textarea>
+
+							</div>
+						</div>
+						<div class="coluna-12">
+							<input type="checkbox" name="infra" id="isento2">Aceito<br />
+							<br />
+						</div>
+					</div>
+					<a href="./Faturamento.html"><button onchange="form1()" onclick="form1()">Salvar</button></a>
+					<br /><br /><br />	
+					
+
+
+					</main>
 				</div>
-			</LABEL> <INPUT id="u50" style="position: absolute; left: -3px; top: -2px;"
-				type="checkbox" value="checkbox">
-		</DIV>
-		<div id="u52" class="u52">
-			<div id="u52_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">11.444.777/0001-61</span>
-				</p>
 			</div>
 		</div>
-		<div id="u53" class="u53">
-			<DIV id="u53_line" class="u53_line"></DIV>
-		</div>
-		<div id="u54" class="u54">
-			<div id="u54_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none; color: #0066CC;">Dados
-						Representante Legal</span>
-				</p>
-			</div>
-		</div>
-		<div id="u55" class="u55">
-			<DIV id="u55_line" class="u55_line"></DIV>
-		</div>
-		<INPUT id="u56" type="submit" class="u56" value="Salvar"> <INPUT
-			id="u57" type="submit" class="u57" value="Enviar Procuração">
-
-		<div id="u58" class="u58_container">
-			<div id="u58_img" class="u58_normal detectCanvas"></div>
-			<div id="u59" class="u59" style="visibility: hidden;">
-				<div id="u59_rtf"></div>
-			</div>
-		</div>
-		<INPUT id="u60" type=text value="" class="u60">
-
-		<div id="u61" class="u61">
-			<div id="u61_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">Celular</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u62" type=text value="" class="u62"> <INPUT
-			id="u63" type=text value="" class="u63">
-
-		<div id="u64" class="u64">
-			<div id="u64_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">Razão
-						Social</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u65" type=text value="" class="u65">
-
-		<div id="u66" class="u66">
-			<div id="u66_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">C</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">EP</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u67" type=text value="" class="u67">
-
-		<div id="u68" class="u68">
-			<div id="u68_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">E</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">stado</span>
-				</p>
-			</div>
-		</div>
-		<div id="u69" class="u69">
-			<div id="u69_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">Logradouro</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u70" type=text value="" class="u70"> <SELECT
-			id="u71" class="u71">
-			<OPTION selected value="Selecione">Selecione</OPTION>
-			<OPTION value="Espírito Santo">Espírito Santo</OPTION>
-			<OPTION value="Minas Gerais">Minas Gerais</OPTION>
-			<OPTION value="Rio de Janeiro">Rio de Janeiro</OPTION>
-			<OPTION value="São Paulo">São Paulo</OPTION>
-		</SELECT>
-
-		<div id="u72" class="u72">
-			<div id="u72_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">N</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">úmero</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u73" type=text value="" class="u73">
-
-		<div id="u74" class="u74">
-			<div id="u74_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">C</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">omplemento</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u75" type=text value="" class="u75">
-
-		<div id="u76" class="u76">
-			<div id="u76_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">B</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">airro</span>
-				</p>
-			</div>
-		</div>
-		<INPUT id="u77" type=text value="" class="u77">
-
-		<div id="u78" class="u78">
-			<div id="u78_rtf">
-				<p style="text-align: left;">
-					<span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">C</span><span
-						style="font-family: Verdana; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: #666666;">idade</span>
-				</p>
-			</div>
-		</div>
-		<SELECT id="u79" class="u79">
-			<OPTION selected value="Selecione">Selecione</OPTION>
-			<OPTION value="Cariacica">Cariacica</OPTION>
-			<OPTION value="Guarapari">Guarapari</OPTION>
-			<OPTION value="Vila Velha">Vila Velha</OPTION>
-			<OPTION value="Vitória">Vitória</OPTION>
-		</SELECT>
-
 	</div>
-	<div class="preload">
-		<img src="Topo_da_pagina_files/u0_normal.jpg" width="1" height="1" /><img
-			src="Cadastro_files/u3_normal.png" width="1" height="1" /><img
-			src="Cadastro_files/u6_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u8_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u15_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u33_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u43_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u53_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u55_line.png" width="1" height="1" /><img
-			src="Cadastro_files/u58_normal.png" width="1" height="1" />
+
+<div class="linha">
+	<div class="coluna-12" style="background-color:#073872;">
+		<center><img src="./assets/img/rodap1.png" /></center>				
 	</div>
+</div>
+<div class="linha">
+	<div class="coluna-12" style="background-color:#052b58;">
+		<center><img src="./assets/img/rodape2.png" /></center>
+	</div>
+</div>
+
 </body>
 <script src="resources/scripts/axurerp_pagescript.js"></script>
 <script src="Cadastro_files/axurerp_pagespecificscript.js"
