@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cadastro</title>
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<script src="data/sitemap.js"></script>
+<script src="resources/scripts/jquery-1.7.1.min.js"></script>
+<script src="resources/scripts/axutils.js"></script>
+<script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+<script src="resources/scripts/axurerp_beforepagescript.js"></script>
+<script src="resources/scripts/messagecenter.js"></script>
+<script src='Cadastro_files/data.js'></script>
+<!-- Styles -->
+<link href="./assets/css/colunas.css" rel="stylesheet" />
+<link href="./assets/css/formulario.css" rel="stylesheet" />
+<link href="./assets/css/principal.css" rel="stylesheet" />
+<link href="./assets/css/menu.css" rel="stylesheet" />
+<link href="assets/css/inicio.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="corpo">
+		<div class="linha">
+			<div class="coluna-12">
+			<center><img src="./assets/img/topo.png" /></center>
+			</div>
+		</div>
+		<div class="linha">
+			<div class="coluna-12">
+				<div id="main_container">
+					<main><!-- Conte�do de P�ginas -->
+					<h2>Cadastro</h2>
+					<hr />
+					<h4>Dados da Empresa</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>CNPJ:</label> <input type="text" id="cnpj" required
+									class="formulario" placeholder="Insira o CNPJ" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Razão Social:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a Razão Social" />
+							</div>
+						</div>
+					</div>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Inscrição Estadual:</label> <input type="text" id="cnpj"
+									required class="formulario"
+									placeholder="Insira a sua Inscrição Estadual" /> <input
+									type="checkbox" name="infra" id="isento1">Sou isento<br>
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Inscrição Municipal:</label> <input type="text"
+									id="razao" required class="formulario"
+									placeholder="Insira a sua Inscrição Estadual" /> <input
+									type="checkbox" name="infra" id="isento2">Sou isento<br>
+							</div>
+						</div>
+					</div>
+
+
+
+					<hr />
+					<h4>Endereço</h4>
+					<div class="linha">
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>CEP:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o CEP" />
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Estado:</label> <select class="formulario" id="forma">
+									<option>Selecione o Estado</option>
+									<option value="AC">Acre</option>
+									<option value="AL">Alagoas</option>
+									<option value="AP">Amapá</option>
+									<option value="AM">Amazonas</option>
+									<option value="BA">Bahia</option>
+									<option value="CE">Ceará</option>
+									<option value="DF">Distrito Federal</option>
+									<option value="ES">Espírito Santo</option>
+									<option value="GO">Goiás</option>
+									<option value="MA">Maranhão</option>
+									<option value="MT">Mato Grosso</option>
+									<option value="MS">Mato Grosso do Sul</option>
+									<option value="MG">Minas Gerais</option>
+									<option value="PA">Pará</option>
+									<option value="PB">Paraiba</option>
+									<option value="PR">Paraná</option>
+									<option value="PE">Pernambuco</option>
+									<option value="PI">Piauí</option>
+									<option value="RJ">Rio de Janeiro</option>
+									<option value="RN">Rio Grande do Norte</option>
+									<option value="RS">Rio Grande do Sul</option>
+									<option value="RO">Rondônia</option>
+									<option value="RR">Roraima</option>
+									<option value="SC">Santa Catarina</option>
+									<option value="SP">São Paulo</option>
+									<option value="SE">Sergipe</option>
+									<option value="TO">Tocantins</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Cidade:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira a cidade" />
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Logradouro:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o Logradouro" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Número:</label> <input type="number" id="cep" required
+									class="formulario" placeholder="Insira o número" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Complemento:</label> <select class="formulario"
+									id="forma">
+									<option value="AC">Casa</option>
+									<option value="AL">Apartamento</option>
+									<option value="AP">Chácara</option>
+									<option value="AP">Fazenda</option>
+								</select>
+							</div>
+						</div>
+						<div class="coluna-4">
+							<div class="grupinho">
+								<label>Bairro:</label> <input type="text" id="cep" required
+									class="formulario" placeholder="Insira o bairro" />
+							</div>
+						</div>
+					</div>
+
+					<hr />
+					<h4>Dados Representante Legal</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>CPF:</label> <input type="text" id="cnpj" required
+									class="formulario" placeholder="Insira o CPF" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Órgão Expedidor:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a órgão expedidor" />
+							</div>
+						</div>
+						<div class="coluna-5">
+							<div class="grupinho">
+								<label>Nome Completo:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira a nome Completo" />
+							</div>
+						</div>
+						<div class="coluna-2">
+							<div class="grupinho">
+								<label>Data Nascimento:</label> <input type="date" id="razao"
+									required class="formulario" placeholder="Insira a data de nascimento" />
+							</div>
+						</div>
+						<div class="coluna-5">
+							<div class="grupinho">
+								<label>Nome Completo da Mãe:</label> <input type="text"
+									id="razao" required class="formulario"
+									placeholder="Insira o nome completo da mãe" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Telefone Fixo:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira um telefone fixo" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Telefone Celular:</label> <input type="text" id="razao"
+									required class="formulario" placeholder="Insira um telefone celular" />
+							</div>
+						</div>
+						<div class="coluna-12">
+							<input type="checkbox" name="infra" id="isento2">Autorizo
+							o recebimento de sms<br />
+							<br />
+						</div>
+
+					</div>
+					<button onchange="form1()" onclick="form1()">Enviar
+						Procuração</button>
+
+
+
+
+					<hr />
+					<h4>Dados de Acesso</h4>
+					<div class="linha">
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>E-mail:</label> <input type="email" id="cnpj" required
+									class="formulario" placeholder="Insira o seu E-mail" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Repita o E-mail:</label> <input type="email" id="razao"
+									required class="formulario"
+									placeholder="Insira o seu E-mail novamente" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Senha:</label> <input type="password" id="razao" required
+									class="formulario" placeholder="Insira a sua senha" />
+							</div>
+						</div>
+						<div class="coluna-6">
+							<div class="grupinho">
+								<label>Repita Senha:</label> <input type="password" id="razao"
+									required class="formulario"
+									placeholder="Insira a sua Senha novamente" />
+							</div>
+						</div>
+
+					</div>
+					<hr />
+					<h4>Termos de Uso e Condições</h4>
+					<div class="linha">
+						<div class="coluna-12">
+							<div class="grupinho">
+								<label>Para concluir seu cadastro, você deve estar de
+									acordo com os "Termos de Uso e Condições". Leia-o com atenção
+									antes de continuar.</label>
+								<textarea class="formulario" name="comentário"  rows="4">Declaro que as informações prestadas acima são a expressão da verdade, pelas quais me responsabilizo sob as penas da lei, autorizando expressamente, o Banestes a efetuar consultas a dados dos sócios da empresa a bancos de dados mantidos pela Central de Risco do Banco Central do Brasil – BACEN, por quaisquer das diversas entidades ou órgãos de proteção ao crédito ou especializadas na prestação de serviços cadastrais. Autorizo, também, que o Banestes forneça a referidos bancos de dados informações sobre meu(s) débito(s) ou financiamento(s), especialmente no que tange à pontualidade na solvência dos compromissos financeiros assumidos e outras informações inerentes à atividade de cadastro e avaliação de risco de operações.</textarea>
+
+							</div>
+						</div>
+						<div class="coluna-12">
+							<input type="checkbox" name="infra" id="isento2">Aceito<br />
+							<br />
+						</div>
+					</div>
+					<button onchange="form1()" onclick="form1()">Salvar</button>
+					<br /><br /><br />	
+					
+
+
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="linha">
+	<div class="coluna-12" style="background-color:#073872;">
+		<center><img src="./assets/img/rodap1.png" /></center>				
+	</div>
+</div>
+<div class="linha">
+	<div class="coluna-12" style="background-color:#052b58;">
+		<center><img src="./assets/img/rodape2.png" /></center>
+	</div>
+</div>
+
+</body>
+<script src="resources/scripts/axurerp_pagescript.js"></script>
+<script src="Cadastro_files/axurerp_pagespecificscript.js"
+	charset="utf-8"></script>

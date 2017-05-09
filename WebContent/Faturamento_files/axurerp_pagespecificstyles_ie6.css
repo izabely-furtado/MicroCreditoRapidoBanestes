@@ -1,0 +1,20 @@
+﻿* html .u3_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Faturamento_files/u3_normal.png");
+}
+
+* html .u6_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Faturamento_files/u6_line.png");
+}
+
+* html .u14_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Faturamento_files/u14_normal.png");
+}
+
+* html .u17_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Faturamento_files/u17_normal.png");
+}
+

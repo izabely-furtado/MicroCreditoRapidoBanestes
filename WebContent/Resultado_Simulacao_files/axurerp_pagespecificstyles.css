@@ -1,0 +1,1101 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:993px;
+    height:284px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:993px;
+    height:284px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:134px;
+    width:989px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../Resultado_Simulacao_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:9px;
+    top:294px;
+    width:996px;
+    height:600px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1002px;
+    height:606px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:292px;
+    width:992px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:18px;
+    top:309px;
+    width:269px;
+    height:26px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_line {
+    background-image: url('../Resultado_Simulacao_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:967px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:16px;
+    top:330px;
+    width:967px;
+    height:10px;
+    
+}
+
+.u7 {
+    position:absolute;
+    left:20px;
+    top:352px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:21px;
+    top:480px;
+    width:209px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_line {
+    background-image: url('../Resultado_Simulacao_files/u9_line.png');
+}
+
+.u9_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:967px;
+    height:3px;
+}
+
+.u9 {
+    position:absolute;
+    left:16px;
+    top:496px;
+    width:967px;
+    height:10px;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:16px;
+    top:408px;
+    width:255px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:20px;
+    top:516px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:20px;
+    top:543px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:20px;
+    top:576px;
+    width:398px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:20px;
+    top:607px;
+    width:272px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:20px;
+    top:637px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:20px;
+    top:668px;
+    width:398px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:20px;
+    top:722px;
+    width:398px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:31px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_line {
+    background-image: url('../Resultado_Simulacao_files/u22_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:441px;
+    height:3px;
+}
+
+.u22 {
+    position:absolute;
+    left:20px;
+    top:532px;
+    width:441px;
+    height:10px;
+    
+}
+
+.u23 {
+    position:absolute;
+    left:386px;
+    top:516px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_line {
+    background-image: url('../Resultado_Simulacao_files/u24_line.png');
+}
+
+.u24_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:442px;
+    height:3px;
+}
+
+.u24 {
+    position:absolute;
+    left:20px;
+    top:562px;
+    width:442px;
+    height:10px;
+    
+}
+
+.u25 {
+    position:absolute;
+    left:394px;
+    top:546px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_line {
+    background-image: url('../Resultado_Simulacao_files/u26_line.png');
+}
+
+.u26_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:441px;
+    height:3px;
+}
+
+.u26 {
+    position:absolute;
+    left:21px;
+    top:595px;
+    width:441px;
+    height:10px;
+    
+}
+
+.u27_line {
+    background-image: url('../Resultado_Simulacao_files/u27_line.png');
+}
+
+.u27_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:442px;
+    height:3px;
+}
+
+.u27 {
+    position:absolute;
+    left:20px;
+    top:626px;
+    width:442px;
+    height:10px;
+    
+}
+
+.u28_line {
+    background-image: url('../Resultado_Simulacao_files/u28_line.png');
+}
+
+.u28_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:442px;
+    height:3px;
+}
+
+.u28 {
+    position:absolute;
+    left:20px;
+    top:655px;
+    width:442px;
+    height:10px;
+    
+}
+
+.u29_line {
+    background-image: url('../Resultado_Simulacao_files/u29_line.png');
+}
+
+.u29_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:442px;
+    height:3px;
+}
+
+.u29 {
+    position:absolute;
+    left:20px;
+    top:685px;
+    width:442px;
+    height:10px;
+    
+}
+
+.u30 {
+    position:absolute;
+    left:361px;
+    top:576px;
+    width:122px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:286px;
+    top:637px;
+    width:175px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:302px;
+    top:607px;
+    width:172px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:377px;
+    top:666px;
+    width:98px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_line {
+    background-image: url('../Resultado_Simulacao_files/u34_line.png');
+}
+
+.u34_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:967px;
+    height:3px;
+}
+
+.u34 {
+    position:absolute;
+    left:16px;
+    top:739px;
+    width:967px;
+    height:10px;
+    
+}
+
+.u35_line {
+    background-image: url('../Resultado_Simulacao_files/u35_line.png');
+}
+
+.u35_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:441px;
+    height:3px;
+}
+
+.u35 {
+    position:absolute;
+    left:17px;
+    top:368px;
+    width:441px;
+    height:10px;
+    
+}
+
+.u36_line {
+    background-image: url('../Resultado_Simulacao_files/u36_line.png');
+}
+
+.u36_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:441px;
+    height:3px;
+}
+
+.u36 {
+    position:absolute;
+    left:17px;
+    top:397px;
+    width:441px;
+    height:10px;
+    
+}
+
+.u37 {
+    position:absolute;
+    left:353px;
+    top:351px;
+    width:111px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u38 {
+    position:absolute;
+    left:95px;
+    top:757px;
+    width:291px;
+    height:117px;
+    overflow:hidden;
+}
+
+#pd1u38 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:291px;
+    height:117px;
+    
+}
+
+.u39_normal {
+    background-image: url('../Resultado_Simulacao_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:30px;
+    top:11px;
+    width:250px;
+    height:19px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:25px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:37px;
+    top:10px;
+    width:234px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:108px;
+    top:10px;
+    width:169px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:37px;
+    top:36px;
+    width:230px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:108px;
+    top:36px;
+    width:144px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:37px;
+    top:62px;
+    width:230px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:108px;
+    top:62px;
+    width:139px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:37px;
+    top:88px;
+    width:230px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:108px;
+    top:88px;
+    width:164px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../Resultado_Simulacao_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:10px;
+    top:15px;
+    width:16px;
+    height:8px;
+}
+
+#u49_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:8px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../Resultado_Simulacao_files/u49_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:10px;
+    top:41px;
+    width:16px;
+    height:8px;
+}
+
+#u51_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:8px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../Resultado_Simulacao_files/u49_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:11px;
+    top:67px;
+    width:16px;
+    height:8px;
+}
+
+#u53_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:8px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../Resultado_Simulacao_files/u49_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:10px;
+    top:93px;
+    width:16px;
+    height:8px;
+}
+
+#u55_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:8px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_normal {
+    background-image: url('../Resultado_Simulacao_files/u57_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:30px;
+    top:37px;
+    width:250px;
+    height:19px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:25px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../Resultado_Simulacao_files/u57_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:30px;
+    top:88px;
+    width:250px;
+    height:19px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:25px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../Resultado_Simulacao_files/u39_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:30px;
+    top:62px;
+    width:250px;
+    height:19px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:25px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u38 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:291px;
+    height:117px;
+    
+}
+
+.u63 {
+    position:absolute;
+    left:16px;
+    top:379px;
+    width:166px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:370px;
+    top:380px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:370px;
+    top:410px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:20px;
+    top:436px;
+    width:320px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:354px;
+    top:436px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68_line {
+    background-image: url('../Resultado_Simulacao_files/u68_line.png');
+}
+
+.u68_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:441px;
+    height:3px;
+}
+
+.u68 {
+    position:absolute;
+    left:17px;
+    top:426px;
+    width:441px;
+    height:10px;
+    
+}
+
